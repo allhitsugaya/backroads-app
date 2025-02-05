@@ -1,5 +1,5 @@
 import React from 'react';
-import {PageLinks} from "./pageLinks";
+import {PageLinks} from "./pagelink";
 import {SocialLinkd} from "./socialLinks";
 
 const Footer = () => {

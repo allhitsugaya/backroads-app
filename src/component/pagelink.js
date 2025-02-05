@@ -1,8 +1,7 @@
 import {pageLinks} from "./data";
 import React from "react";
 
-
-export function PageLink() {
+export function PageLinks() {
   return <ul className="footer-links">
     {pageLinks.map((link) => {
         const {id, href, text} = link;
@@ -15,5 +14,3 @@ export function PageLink() {
     )}
   </ul>
 }
-
-
